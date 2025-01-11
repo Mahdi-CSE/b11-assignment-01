@@ -33,7 +33,7 @@ body {
   height: 560px;
   justify-content: space-between;
   align-items: center;
-  padding: 56.91px 71px;
+  padding:71px;
   gap: 45.53px;
 }
 #banner-section .banner-area .banner-text {
@@ -201,6 +201,6 @@ body {
   text-align: left;
   margin-top: 5px;
 }
-/* Quote Section Ends Here */
+/* Quote Section Ends */
 
 /* Vision of future ends here */
