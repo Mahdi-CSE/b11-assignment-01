@@ -22,6 +22,11 @@ body {
   padding: 12.09px 24.19px 12.09px 24.19px;
   border: none;
 }
+.btn-primary:hover {
+  color: rgb(0, 106, 80);
+  background-color: rgb(255, 255, 255);
+  transition: 1s;
+}
 /* Banner Section starts */
 
 #banner-section {
@@ -30,7 +35,7 @@ body {
   align-items: center;
 }
 #banner-section .banner-area {
-  border-radius: 24px;
+  border-radius: 17.07px;
   background-color: rgb(198, 228, 214);
   display: flex;
   width: 910.66px;
@@ -57,11 +62,6 @@ body {
   font-family: Fira Sans;
   font-size: 39.84px;
   font-weight: 700;
-}
-#banner-section .banner-area .banner-text .btn-primary:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 106, 80);
-  transition: 1s;
 }
 
 /* Ends of Banner section */
@@ -335,21 +335,81 @@ body {
   padding: 28.46px;
   background-color: rgb(255, 255, 255);
 }
-#donate-section .donate-area .donate-fixed button:hover{
-    background-color: rgb(198, 228, 214);
-    transition: 1s;
+#donate-section .donate-area .donate-fixed button:hover {
+  background-color: rgb(198, 228, 214);
+  transition: 1s;
 }
-#donate-section .donate-area .donate-fixed .btn-donate-2{
-    background-color: rgb(198, 228, 214);
+#donate-section .donate-area .donate-fixed .btn-donate-2 {
+  background-color: rgb(198, 228, 214);
 }
-#donate-section .donate-area .donate-fixed .btn-donate-2:hover{
-    background-color: rgb(0, 106, 80);
+#donate-section .donate-area .donate-fixed .btn-donate-2:hover {
+  background-color: rgb(0, 106, 80);
 }
-#donate-section .donate-area #manual-donate{
-    margin: auto;
-    width: 90%;
-    padding: 15px;
-    text-align: center;
-    outline: none;
-    border: 0px;
+#donate-section .donate-area #manual-donate {
+  margin: auto;
+  width: 90%;
+  padding: 15px;
+  text-align: center;
+  outline: none;
+  border: 0px;
 }
+/* Donate Section Ends Here */
+
+/* Newsletter Section Starts Here */
+#newsletter-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 910.66px;
+  border-radius: 17.07px;
+  background-color: rgb(198, 228, 214);
+}
+#newsletter-section .newsletter-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding: 50px;
+}
+#newsletter-section .newsletter-area .newsletter-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#newsletter-section .newsletter-area .newsletter-header .newsletter-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 28.46px;
+  font-weight: 700;
+}
+#newsletter-section
+  .newsletter-area
+  .newsletter-header
+  .newsletter-description {
+  width: 450px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 11.92px;
+  font-weight: 400;
+}
+#newsletter-section .newsletter-area form #newsletter-email {
+  outline: none;
+  width: 533.59px;
+  border: 0px;
+  padding: 12px 20px;
+  border-radius: 7.07px 0px 0px 7.07px;
+}
+#newsletter-section .newsletter-area form .btn-subscribe {
+  margin-left: -70px;
+  border-radius: 0px 7.07px 7.07px 0px;
+}
+#newsletter-section .newsletter-area .newsletter-footer {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 11.92px;
+  font-weight: 400;
+}
+/* Newsletter Section Ends here */
