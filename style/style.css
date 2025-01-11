@@ -156,4 +156,51 @@ body {
   background-color: rgb(255, 255, 255);
   transition: 1s;
 }
+
+/* Quote Section starts here */
+
+#vision-section .vision-area .quote-section {
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+}
+#vision-section .vision-area .quote-section .quote::before {
+  content: url("../assets/quote-bg.png");
+  position: absolute;
+  top: -19px;
+  z-index: 0;
+}
+#vision-section .vision-area .quote-section .quote {
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+#vision-section .vision-area .quote-section .quote p {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 11.3832px;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: left;
+}
+#vision-section .vision-area .quote-section .quote .vision-advisor h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 14.23px;
+  font-weight: 600;
+  margin-top: 13px;
+}
+#vision-section .vision-area .quote-section .quote .vision-advisor p {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 11.38px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 5px;
+}
+/* Quote Section Ends Here */
+
 /* Vision of future ends here */
