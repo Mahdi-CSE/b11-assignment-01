@@ -285,7 +285,71 @@ body {
   font-weight: 400;
   margin-bottom: 25.01px;
 }
-#news-section .news-area .news-card .card-2{
-    flex-direction: row-reverse;
+#news-section .news-area .news-card .card-2 {
+  flex-direction: row-reverse;
 }
+
 /* Recent News Ends here */
+
+/* Donate Section Starts here */
+
+#donate-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 56.91px;
+}
+#donate-section .donate-area {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 785.44px;
+  gap: 25px;
+}
+#donate-section .donate-area .donate-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 28.458px;
+  font-weight: 700;
+}
+#donate-section .donate-area .donate-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 11.38px;
+  font-weight: 400;
+}
+#donate-section .donate-area .donate-fixed {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#donate-section .donate-area .donate-fixed button {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 28.46px;
+  font-weight: 700;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 28.46px;
+  background-color: rgb(255, 255, 255);
+}
+#donate-section .donate-area .donate-fixed button:hover{
+    background-color: rgb(198, 228, 214);
+    transition: 1s;
+}
+#donate-section .donate-area .donate-fixed .btn-donate-2{
+    background-color: rgb(198, 228, 214);
+}
+#donate-section .donate-area .donate-fixed .btn-donate-2:hover{
+    background-color: rgb(0, 106, 80);
+}
+#donate-section .donate-area #manual-donate{
+    margin: auto;
+    width: 90%;
+    padding: 15px;
+    text-align: center;
+    outline: none;
+    border: 0px;
+}
